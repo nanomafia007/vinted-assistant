@@ -51,7 +51,7 @@ if uploaded_file is not None:
                     genai.configure(api_key=api_key)
                     
                     # Usiamo il modello 'gemini-1.5-flash', perfetto, veloce e gratuito per le immagini
-                    model = genai.GenerativeModel('gemini-1.5-flash')
+                    model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
                     
                     prompt_testo = (
                         "Analizza attentamente questa foto di un capo d'abbigliamento destinato alla vendita su Vinted. "
